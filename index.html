@@ -1,0 +1,175 @@
+<html>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #af1e1e;
+            color: #d4a8a8;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        nav a {
+            color: #c09797;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background: url('Gsr5.jpeg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .properties {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .property {
+            border: 1px solid #a32121;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .property img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .property h3 {
+            padding: 10px;
+            margin: 0;
+        }
+        .form-section {
+            background-color: #1bb449;
+            padding: 40px 20px;
+        }
+        .form-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        form input, form textarea, form button {
+            padding: 10px;
+            border: 1px solid #1aa73d;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #88e085;
+            color: #b1a6a6;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #8a1c1c;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <nav>
+            <h2><a href="#">Home</a></h2>
+            <h2><a href="index-2.html" class="btn-wa">About</a></h2>
+            <h2> <a href="index3-1.html">Blog</a></h2>
+            <h2><a href="#contact">Contact</a></h2>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1> Etalase Properti Impian Anda</h1>
+    </div>
+
+    <div class="content">
+        <h2>Properti Tersedia</h2>
+        <div class="properties">
+            <div class="property">
+                <img src="rumah.jpeg" alt="Properti 1">
+                <h3>Grandia Syahdu Residence1 Bogor</h3>
+                <p>Harga: Rp 500.000.000</p>
+            </div>
+        <head>
+        </head></title>
+            <div class="property">
+                <img src="rumah2.jpeg" alt="Properti 2">
+                <h3>Grandia Syahdu Residence Exluseve Bogor</h3>
+                <p>Harga: Rp 650.749.500</p>
+            </div>
+            <div class="property">
+                <img src="Gsr1.jpeg" alt="Properti 3">
+                <h3>Grandia Syahdu Residence 5</h3>
+                <p>Harga: Rp 475.000.000</p>
+            </div>
+        </div>
+    </div>
+    <h2>klik <a href="index-2.html">disini</a> untuk info selengkapnya.</h2>
+    <section id="contact" class="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Telepon/ wa : 62895326124979</p>
+        <p>Alamat: Jl. Kalisuren Bogor</p>
+    </section>
+    <div class="form-section" id="contact">
+        <h2>Untuk Info lebih lanjut isi Form berikut</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Nama Anda" required>
+            <input type="No Telp Anda" name="No Telp Anda" placeholder="No Telp Anda" required>
+            <textarea name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+            <button type="submit"><a href="https://wa.me/62895326124979" class="btn-wa">Kirim Pesan</a></button>
+        </form>
+    </div>
+        <footer>
+        
+            <p>"Website ini dikembangkan berdasarkan referensi dari sumber Properti terpercaya Gaspropertindo".</p>
+            <p>"Terinspirasi dari proyek properti Sukses di Indonesia".</p>
+            <p>Developer By :</p>
+            <p>PT. GANDARIA ABADI SEJAHTERA</p>
+</body>
+</html>
