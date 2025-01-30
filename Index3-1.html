@@ -1,0 +1,84 @@
+<html>
+    
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Blog</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Warna latar belakang */
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Membuat elemen diatur secara vertikal */
+            height: 100vh; /* Tinggi 100% layar */
+            text-align: center; /* Semua teks di tengah */
+        }
+        .video-container video {
+            width: 80%; /* Lebar video */
+            max-width: 600px; /* Maksimal lebar video */
+            border: 5px solid #333; /* Border di sekitar video */
+            border-radius: 10px; /* Membuat border melengkung */
+        }
+        .heading {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .sub-heading {
+            font-size: 1.2rem;
+            color: #555;
+            margin-top: 20px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #28a745; /* Warna hijau */
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #218838; /* Warna hijau lebih gelap saat hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <h1 class="heading">Selamat Datang di Properti Impian</h1> <!-- Teks di atas video -->
+        
+        <video controls>
+            <source src="Vidio.mp4" type="video/mp4"> <!-- Ganti 'video.mp4' dengan path file video Anda -->
+            Browser Anda tidak mendukung video. Silakan gunakan browser modern.
+        </video>
+        
+        <p class="sub-heading">Jelajahi rumah modern dan eksklusif kami melalui video ini.</p> <!-- Teks di bawah video -->
+        
+        <!-- Tombol -->
+        <div class="button-container">
+            <a href="index-2.html" class="button">Pelajari Kembali</a> <!-- index-2.html -->
+            <a href="https://wa.me/62895326124979" target="_blank" class="button">Info harga dan lainnya</a> <!-- Link ke WhatsApp -->
+        </div>
+        <footer>
+            <p>ⓒ Copyright 2025 Etalase Properti. All Right Reserved</p>
+        </footer>
+        
+        <div class="content">
+            <p><a href="index.html" class="btn-back">Kembali ke Halaman Utama</a></p>
+            </div>
+    </div>
+</body>
+</html>
